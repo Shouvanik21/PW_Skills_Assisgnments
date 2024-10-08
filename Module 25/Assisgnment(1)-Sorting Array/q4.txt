@@ -1,0 +1,7 @@
+Original Array is {3 5 1 6 0}
+In the first iteration array is {5 3 6 1 0}
+In the second iteration array is {5 6 3 1 0}
+In the third iteration array is {6 5 3 1 0}
+Now the array gets sorted.
+
+So,to sort the array in decreasing order using bubble sort a total of 3 passes would be required.
