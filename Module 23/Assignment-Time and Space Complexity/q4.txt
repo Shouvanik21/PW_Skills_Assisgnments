@@ -1,0 +1,13 @@
+Solution: From the given recurrence relation we can obtain the value of different parameters such as a, b, p, and
+k.
+The relation : T(n) = 16T(n/4) + n2logn
+Here, a = 16
+b = 4
+k = 2
+p = 1
+bk = 42 = 16
+Here a = bk
+Also p > -1
+
+Hence T(n) = θ(nlogab * logp+1n)
+Therefore T(n) = θ(nlog164 * log1+1n) = θ(n1/2log2n)(Ans)

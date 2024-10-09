@@ -1,0 +1,36 @@
+To solve the recurrence relation T(n) = 2T(n/2) + K using the recursion tree method, we will visualize the recursive calls as a tree structure.
+
+Recursion Tree:
+
+At the root level, the problem size is n.
+Each level of the tree represents a recursive call.
+At each level, the problem size is halved (n/2, n/4, n/8, ...).
+At each level, there are 2 child nodes, representing the two recursive calls made.
+The work done at each node is K (the non-recursive part of the recurrence).
+Cost at Each Level:
+
+Level 0: 1 node * K = K
+Level 1: 2 nodes * K = 2K
+Level 2: 4 nodes * K = 4K
+Level 3: 8 nodes * K = 8K
+...
+Level i: 2^i nodes * K = 2^i * K
+Total Cost:
+
+The total cost is the sum of the costs at all levels. We can see that the cost at each level is 2^i * K.
+
+To find the total cost, we can sum up the costs from level 0 to the last level, which is log n (since the problem size is halved at each level).
+
+Therefore, the total cost is:
+
+T(n) = K + 2K + 4K + ... + 2^(log n) * K
+
+T(n) = K * (1 + 2 + 4 + ... + 2^(log n))
+
+T(n) = K * (2^(log n + 1) - 1)
+
+T(n) = K * (2n - 1)
+
+Conclusion:
+
+Using the recursion tree method, we have determined that the solution to the recurrence relation T(n) = 2T(n/2) + K is T(n) = K * (2n - 1). This means that the algorithm represented by this recurrence relation has a time complexity of O(n).
