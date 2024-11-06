@@ -13,6 +13,7 @@ Ans:-Keyboard is thee device.
 5.What are the output devices?
 Ans:-Those devices that give the result of some data is known as output devices.
 Eg:- Monitor, Printer etc.
+
 6.Which is the input device that allows a user to move the cursor or pointer on the screen?
 Ans:- Mouse allows the user to move the pointer all around the screen.
 
