@@ -1,0 +1,92 @@
+1. What are the Conditional Operators in Java?
+Ans:-The conditional operator in java is also known as ternary operator. It checks a certain expression, if it is true it evaluates the  result prior to semi-colon,  otherwise the result after semi-colon.
+
+Syntax:
+
+Datatype var_name = (expression)?(if true this value is returned):(else this value is returned);
+
+2.What are the types of operators based on the number of operands?
+Ans:- There are two types of operator based on the no of operands:
+    a)Unary Operator - This operator contains only a single operand. Eg:- ++a
+    b)Binary Operator - This operator contains two operands on its left and right side. Eg:- a+b
+
+3.What is the use of Switch case in Java programming?
+Ans:-The switch case in java is a selection statement that returns the result of a certain case depending on the expression given.
+
+Syntax:
+
+switch(expression){
+     case x:
+     //code block
+     break;
+    case y:
+    //code block
+    break;
+
+    case z:
+    //code block
+    break;
+}
+
+4.What are the priority levels of arithmetic operation in Java?
+Ans:-The priority levels of arithmetic operator in java in descending order is shown below:
+    1.%,/,* have the same priority.the one that comes first on the leftmost side of the expression will be evaluated first.
+    2.+,- have the same priority.the one that comes first on the leftmost side of the expression will be evaluated first.
+But the operators in (1) has more priority than (2). 
+
+5.What are the conditional statements and use of conditional statements in Java?
+Ans:-The conditional statements in java are if and else statement.
+
+They are used to return some result based on the condition given in the if block. If the condition returns true the block under if gets executed otherwise the block under else gets executed.
+
+6.What is the syntax of if else statement?
+Ans:-
+
+Syntax:
+
+if(condition){
+   //code block
+}else{
+   //code block
+}
+
+
+7. What are the 3 types of iterative statements in java?
+Ans:-The three types of iterative statements in java are:-
+    a)For loop
+    b)While loop
+    c)Do-while loop
+
+8. Write the difference between for loop and do-while loop?
+Ans:-In for loop the block under it gets executed unless the condition becomes false.
+
+Syntax:
+
+for(initialisation;condition;updation){
+         //code block
+}
+
+In do-while loop first the block under do gets executed irrespective of the condition in the while block. Then the block under while gets executed unless the condition in it becomes false.
+
+Syntax:
+
+do{
+   //code block
+}
+while(condition);
+
+9. Write a program to print no from 1 to 10.
+Ans:-
+  Code:
+
+public class Test
+{
+      public static void main(String []args)
+      {
+            for(int i=1;i<=10;i++)
+            {
+                System.out.println(i);
+                 i++;
+            }
+      }
+}
