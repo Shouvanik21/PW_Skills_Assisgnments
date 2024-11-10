@@ -18,3 +18,10 @@ Ans:- The different types of variables in Java are:
 Ans:-Instance variable is the variable that is declared inside a class but outside the main method.
 
 Local variable is the variable that is declared in the main method.
+
+5.In which area memory is allocated for instance variable and local variable?
+Ans:-Instance variable is allocated a space in the heap area of the JVM. Whereas, local variable is allocated a space in the stack area of the JVM.
+
+6.What is method overloading?
+Ans:-Method overloading in java is a feature that allows a class to have more than one method with the same name, but with different parameters,structures,data type,etc.
+
