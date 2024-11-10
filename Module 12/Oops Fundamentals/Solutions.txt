@@ -1,0 +1,20 @@
+1.How to create an object in java?
+Ans:-The new keyword is used to create an object in java. When this keyword is used an instance of the class is created and a memory is allocated to the object and a reference of the object is returned to the memory.
+
+Syntax:
+
+classname object = new classname();
+
+2.What is the use of a new keyword in Java?
+Ans:-The new keyword is used to create an object in java. When this keyword is used an instance of the class is created and a memory is allocated to the object and a reference of the object is returned to the memory.
+
+3.What are the different types of variables in Java?
+Ans:- The different types of variables in Java are:
+            a)Instance Variable
+            b)Static Variable
+            c)Local variable
+
+4.What is the difference between instance variable and local variables?
+Ans:-Instance variable is the variable that is declared inside a class but outside the main method.
+
+Local variable is the variable that is declared in the main method.
