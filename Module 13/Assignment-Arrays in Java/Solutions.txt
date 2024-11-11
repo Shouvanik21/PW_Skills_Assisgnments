@@ -19,3 +19,33 @@ The insertion or deletion of an element from the array occurs from the end only.
 
 5.What is an Anonymous Array in Java. Give an example.
 Ans:-An array in Java without any name is known as an anonymous array. It is an array just for creating and using instantly. Using an anonymous array, we can pass an array with user values without the referenced variable.
+
+Syntax:
+
+new data_type[]{//set of values separated by comma};
+
+Eg:-
+New int[]{1,2,3,4};
+New String[]{“Ram”,“Rahul”,“Shyam”};
+
+6.What are the different ways to traverse an Array in java?
+Ans:-The two ways to traverse an array are:
+1)Normal way:-
+
+Int arr[] = {1,2,3,4};
+for(int i=0;i<arr.length;i++)
+{
+     System.out.println(i);
+}
+
+2)Enhanced for loop:-
+
+Int arr[] = {5,6,7,8,};
+for(int a : arr)
+{
+     System.out.println(a);
+}
+
+7.What is the difference between length and length() method.     Give an examples.
+Ans:- The length property is used with the array to know the size of the array.
+
