@@ -49,3 +49,24 @@ for(int a : arr)
 7.What is the difference between length and length() method.     Give an examples.
 Ans:- The length property is used with the array to know the size of the array.
 
+Eg:-
+
+int arr[] = {1,2,3,4,5};
+int size = arr.length;
+
+Output:-
+
+4
+
+The length() method is used with the string object and is used the tell the no of characters in it.
+
+Eg:-
+
+String name =“Ram”;
+int size = name.length();
+
+Output:-
+
+3
+
+
