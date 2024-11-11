@@ -1,0 +1,21 @@
+1.What is the default value of Array for different data types?
+Ans:-The default value of array for different data types are:
+          a)boolean - false
+          b)int - 0
+          c)double - 0.0
+          d)String - null
+
+2.Can you pass the negative number in Array size?
+Ans:-No, negative numbers cannot be passed to the array size.It will show error.
+
+3.Where does Array stored in JVM memory?
+Ans:-Since array is an object it is stored in the heap area of the JVM.
+
+4.What are the disadvantages of Array?
+Ans:-The disadvantages of array are:
+The elements stored in an array must be of the same data type.
+The size of an array once created cannot be increased.
+The insertion or deletion of an element from the array occurs from the end only.
+
+5.What is an Anonymous Array in Java. Give an example.
+Ans:-An array in Java without any name is known as an anonymous array. It is an array just for creating and using instantly. Using an anonymous array, we can pass an array with user values without the referenced variable.
