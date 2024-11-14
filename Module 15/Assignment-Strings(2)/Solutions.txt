@@ -17,3 +17,12 @@ Ans:-The string constant pool is a special location in the heap area where the d
 Format:-String val = “PW”;
 
 In the heap area inside the string constant pool the value PW gets stored and is referred by the variable named val.
+
+5.What do you mean by mutable and immutable objects?
+Ans:-
+i)Mutable objects:- the mutable objects are the objects in which the data stored can be changed and a new value can be assigned to it.
+ii)Immutable objects:-the immutable objects are the objects in which the data stored cannot be changed once assigned.
+
+6.Where is exactly the string constant pool located in the memory?
+Ans:-The string constant pool is located in the heap area of the memory.
+
