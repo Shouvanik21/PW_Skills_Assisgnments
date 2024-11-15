@@ -1,0 +1,13 @@
+Mutable string:- a mutable string in java is a string in java in which the data stored can be changed and a new value can be assigned to it.
+
+In java to create a mutable string we either use StringBuffer or StringBuilder.
+
+Eg:-
+StringBuffer sb = new StringBuffer(“Virat”);
+system.out.println(sb);
+sb.append(“Kohli”);
+system.out.println(sb);
+
+Output:-
+Virat
+ViratKohli
