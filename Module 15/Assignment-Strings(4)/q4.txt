@@ -1,0 +1,19 @@
+There are two methods to compare two strings in java:
+
+i)== operator :- it checks the address of the data values and if they are same it returns true.
+Eg:-
+String s1 = “PW”;
+String s2 = “PW”
+System.out.println(s1==s2);
+
+Output:-
+true
+
+ii).equals() method :- it checks the value of the strings and if they are true it returns true.
+Eg:-
+String s1 = new String(“PWjava”);
+String s2 = new String(“PWjava”);
+System.out.println(s1.equals(s2));
+
+Output:-
+True
