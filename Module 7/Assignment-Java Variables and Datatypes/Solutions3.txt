@@ -1,0 +1,41 @@
+1.What is statically typed and dynamically typed Programming language?
+Ans:-Statically typed programming languages are languages in which the data type is required to be specified for a variable.
+
+Whereas,in dynamic typed programming languages the data type is not required to be specified for a variable. The variable stores data according to the type assigned.
+
+2. What is the variable in java?
+Ans:-A variable is the name of a memory allocated reserved area, or in other words it is the name of the memory location.
+
+3. How to assign a value to variable?
+Ans:-The syntax for assigning a value to a variable is:
+        datatype var_name = value ;
+
+4. What are Primitive data types in java?
+Ans:-The primitive data types are the built-in data types of Java. They come with a specified size and type of any standard values.
+
+5.What are the Identifiers in java?
+Ans:-Identifiers in Java are a sequence of characters to identify something in a program.They can be variable, class name , arrays etc.
+
+6. List the Operators in java?
+Ans:-The operators in java are:
+        a)Arithmetic Operators.
+        b)Assignment Operators.
+        c)Logical Operators.
+        d)Relational Operators.
+        e)Unary Operators.
+        f)Bitwise Operators.
+        
+7. Explain about Increment and Decrement operators and give an examples.
+Ans:-The increment (++) operators are unary operators, which means they operate on a single operand. They are used to increase the value of an integer, floating-point, or character by 1.
+Eg:- Code
+        int a = 5;
+        System.out.println(a++);
+       Output
+        6
+
+The decrement (--) operators are unary operators, which means they operate on a single operand. They are used to decrease the value of an integer, floating-point, or character by 1.
+Eg:- Code
+        int a = 5;
+        System.out.println(a–);
+       Output
+        4

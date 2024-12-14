@@ -1,0 +1,7 @@
+To find the length of a string in java .length() method is used.
+Eg:-
+String s1= “PWjavaskills”;
+System.out.println(s1.length());
+
+Output:-
+12
